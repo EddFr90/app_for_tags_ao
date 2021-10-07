@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			ML App
+		</div>
+		<h2>Tags For Stack Overflow</h2>
+		
+	</div>
+	</header>
+	<p style="color:rgba(0, 110, 255, 0.89);font-size:20;text-align: center;"><b>tags from supervised model</b></p>
+	<div class="results">
+
+
+	{{prediction}}	
+	
+
+</body>
+</html>
